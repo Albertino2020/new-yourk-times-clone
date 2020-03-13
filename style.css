@@ -126,51 +126,82 @@ a {
     text-align: left;
     width: 75%;
 }
+
 .wrap {
     width: 65%;
     margin-left: 20%;
     margin-right: 20%;
 }
-.date-icons{
+
+.date-icons {
     display: flex;
     align-items: center;
 }
-.date{
+
+.date {
     width: 50%;
 }
-.icons{
+
+.icons {
     display: flex;
     width: 50%;
     justify-content: flex-end;
 }
-.icons>a{
+
+.icons>a {
     margin-left: 20px;
     border-radius: 30%;
     background-color: silver;
 }
-.paragraph{
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+
+.paragraph {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 1.125rem;
     line-height: 1.5625rem;
     color: #333;
 }
-.box1{
+
+.box1 {
     text-align: center;
 }
-.box1>hr{
+
+.box1>hr {
     width: 7%;
 }
-.box1>p{
+
+.box1>p {
     font-size: 17px;
-    line-height:5px;
+    line-height: 5px;
     font-family: nyt-franklin;
     font-weight: 700;
 }
-.box1>p>a{
-    color:rgb(50, 104, 145);
+
+.box1>p>a {
+    color: rgb(50, 104, 145);
     text-decoration: none;
 }
-.bicep{
+
+.bicep {
     width: 100%;
     height: auto;
+}
+
+.sec-grid {
+    display: grid;
+    background-image: url('/images/inflation-945.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 120px;
+    column-gap: 20px;
+    padding-top: 120px;
+}
+
+.sec-box {
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
 }
