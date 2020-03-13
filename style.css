@@ -1,10 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-  }
-  .navbar{
+}
+
+.navbar {
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,62 +18,106 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
-  }
-  .nav-left{
+}
+
+.nav-left {
     justify-self: flex-start;
     width: 33%;
-  }
-  .menu{
+}
+
+.menu {
     padding-left: 20px;
     margin-right: 25px;
     color: #000;
     font-weight: 700;
-  }
-  .spaceAndCosmos{
+}
+
+.spaceAndCosmos {
     font-size: 14px;
-    font-family: "nyt-franklin",helvetica,arial,sans-serif;
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 19px;
     color: #000;
     text-decoration: none;
     margin-left: 25px;
-  }
-  .spaceAndCosmos:hover{
+}
+
+.spaceAndCosmos:hover {
     text-decoration: underline;
-  }
-  .logo-NYT{
-      width: 34%;
-      display: flex;
-      justify-content: center;
-  }
-  .btn-anchor{
-    font-family: "nyt-franklin",helvetica,arial,sans-serif;
+}
+
+.logo-NYT {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-anchor {
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 700;
-  }
-  .nav-right{
+}
+
+.nav-right {
     width: 33%;
     display: flex;
     justify-content: flex-end;
-  }
-  .btn-right{
+}
+
+.btn-right {
     background-color: #567b95;
     border: 1px solid #326891;
     border-radius: 3px;
     height: 2.4em;
-  }
-  .btn-right:hover{
+}
+
+.btn-right:hover {
     background-color: #326891;
-  }
-  .btn-subscribe{
-      width: 120px;
-      margin-right: 7px;
-  }
-  .btn-login{
-      width: 60px;
-      margin-right: 20px;
-  }
+}
+
+.btn-subscribe {
+    width: 120px;
+    margin-right: 7px;
+}
+
+.btn-login {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.art-wrapper {
+    width: 70%;
+    padding-top: 20px;
+    color: #333;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-size-adjust: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+.nyt-font {
+    width: 45%;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.4rem;
+    line-height: 2.25rem;
+    color: #121212;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.art-img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
