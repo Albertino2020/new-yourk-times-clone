@@ -4,6 +4,9 @@ body {
     border: 0;
     box-sizing: border-box;
 }
+a{
+    color: black;
+}
 
 .navbar {
     margin: 0;
@@ -107,9 +110,33 @@ body {
     margin-left: 18%;
     text-align: left;
 }
-
 .art-img {
     display: block;
     width: 100%;
     margin: auto;
+}
+.caption-1{
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.93rem;
+    line-height: 1.23rem;
+    text-align: left;
+    width: 75%;
+}
+.article-para-1{
+    width: 64%;
+    text-align: left;
+    margin: auto;
+}
+.date-icons{
+    display: block;
+    float:left;
+    text-align: left;
+}
+.icons{
+    display: block;
+    float: right;
+}
+.wrap{
+    margin-bottom: 100px;
 }
