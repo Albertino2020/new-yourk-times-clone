@@ -205,3 +205,14 @@ a {
     font-weight: 300;
     color: #000000;
 }
+
+.sec-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sec-img-box {
+    width: 200px;
+    height: 200px;
+}
