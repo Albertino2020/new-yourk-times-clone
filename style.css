@@ -93,27 +93,19 @@ body {
     width: 70%;
     padding-top: 20px;
     color: #333;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    text-size-adjust: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    display: block;
-    position: relative;
-    margin: 0 auto 20px;
+    margin: 0 auto;
 }
 
 .nyt-font {
-    width: 45%;
-    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-family: "nyt-cheltenham", georgia, 'times new roman', times, serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 2.4rem;
-    line-height: 2.25rem;
+    font-size: 2.3rem;
+    line-height: 3rem;
     color: #121212;
-    padding-top: 40px;
-    display: inline-block;
+    margin-top: 7%;
+    margin-left: 18%;
+    text-align: left;
 }
 
 .art-img {
