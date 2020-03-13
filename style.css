@@ -126,27 +126,51 @@ a {
     text-align: left;
     width: 75%;
 }
-
-.article-para-1 {
-    width: 64%;
-    text-align: left;
-    margin: auto;
-}
-
-.date-icons {
-    display: inline-block;
-    text-align: left;
-    width: 45%;
-}
-
-.icons {
-    display: inline-block;
-    width: 45%;
-}
-
 .wrap {
-    margin-bottom: 20px;
-    align-self: auto;
+    width: 65%;
     margin-left: 20%;
     margin-right: 20%;
+}
+.date-icons{
+    display: flex;
+    align-items: center;
+}
+.date{
+    width: 50%;
+}
+.icons{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.icons>a{
+    margin-left: 20px;
+    border-radius: 30%;
+    background-color: silver;
+}
+.paragraph{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    color: #333;
+}
+.box1{
+    text-align: center;
+}
+.box1>hr{
+    width: 7%;
+}
+.box1>p{
+    font-size: 17px;
+    line-height:5px;
+    font-family: nyt-franklin;
+    font-weight: 700;
+}
+.box1>p>a{
+    color:rgb(50, 104, 145);
+    text-decoration: none;
+}
+.bicep{
+    width: 100%;
+    height: auto;
 }
