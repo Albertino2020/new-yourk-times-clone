@@ -12,7 +12,7 @@ aside {
 }
 
 aside div {
-    margin: 20px 0 20px 0;
+    margin: 20px 80px 20px 0;
 }
 
 aside a {
@@ -22,6 +22,9 @@ aside a {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.375rem;
+}
+aside a:hover{
+    color: #666;
 }
 
 a {
@@ -224,24 +227,27 @@ a {
     font-weight: 300;
     color: #000000;
 }
+.horizental-bar{
+    display:block;
+    width: 60px;
+    float: left;
+}
 
 .sec-img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
-    column-gap: 10px;
 }
 
 .grid-section {
-    display: block;
     float: left;
-    width: 60%;
+    width: 65%;
     margin-left: 60px;
 }
 
 .sec-img-box {
-    width: 260px;
+    width: 270px;
     height: auto;
 }
 
@@ -261,17 +267,17 @@ a {
 .footer {
     clear: both;
     display: block;
-    width: 100%;
     margin-bottom: 0;
     margin-left: 60px;
+    width: 90%;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    width: 100%;
 }
-
 .footer-logo a {
     float: right
 }
@@ -284,7 +290,6 @@ a {
     display: table;
     width: 100%;
     padding-top: 7px;
-    /*width: 150px;*/
     font-size: 14px;
     font-weight: 500;
     font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -326,4 +331,20 @@ ul li {
 
 .title-pad {
     padding-bottom: 10px;
+}
+.last-links{
+    
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    padding: 10px 0;
+    text-align: center;
+}
+.last-links a{
+    font-size: 0.65rem;
+    text-decoration: none;
+    margin: 0 7px;
+    color: #666;    
+}
+.last-links a:hover{
+    text-decoration: underline;
+    text-decoration-color: #666;
 }
