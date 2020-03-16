@@ -273,11 +273,35 @@ aside {
     width: 100%;
     margin-bottom: 0;
 }
-.footer-grid{
+
+.footer-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
 }
-.footer-logo a{
+
+.footer-logo a {
     float: right
+}
+
+.ul-class {
+    list-style: none;
+}
+
+li {
+    padding: 5px 0 0px 0px;
+    color: #000;
+    display: inline-block;
+    font-family: nyt-franklin;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 8px;
+}
+
+.list-icon:nth-child(2) {
+    list-style: url('images/icon-home.svg');
 }
