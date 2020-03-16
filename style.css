@@ -5,6 +5,12 @@ body {
     box-sizing: border-box;
 }
 
+aside {
+    display: block;
+    float: right;
+    width: 30%;
+}
+
 a {
     color: black;
 }
@@ -210,9 +216,59 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
+.grid-section {
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+
+/*.grid-section:before,
+.grid-section:after {
+    content: "";
+    display: table;
+}
+
+.grid-section {
+    clear: both;
+    *zoom: 1;
+}*/
+
+
+/*aside:after {
+    content: "";
+    display: table;
+}
+
+aside {
+    clear: both;
+    *zoom: 1;
+}*/
+
 .sec-img-box {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.sec-img {
+    width: 100%;
+    height: auto;
+}
+
+.sec-img-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
 }
