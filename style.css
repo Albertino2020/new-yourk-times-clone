@@ -11,6 +11,19 @@ aside {
     width: 30%;
 }
 
+aside div {
+    margin: 20px 0 20px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+}
+
 a {
     color: black;
 }
@@ -224,10 +237,12 @@ a {
     display: block;
     float: left;
     width: 60%;
+    margin-left: 60px;
 }
+
 .sec-img-box {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: auto;
 }
 
 .sec-img {
@@ -248,11 +263,12 @@ a {
     display: block;
     width: 100%;
     margin-bottom: 0;
+    margin-left: 60px;
 }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -261,39 +277,53 @@ a {
 }
 
 .ul-class {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .ul-class li {
+    display: table;
+    width: 100%;
     padding-top: 7px;
-    width: 150px;
+    /*width: 150px;*/
     font-size: 14px;
     font-weight: 500;
     font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
-.ul-class li>a{
+
+.ul-class li>a {
     color: #000;
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-decoration: none;
 }
 
-.list-icon :nth-child(2){
-  list-style-image: url('images/icon-home.svg');
-  list-style-position: inside;
-  font-weight: 700;
+.list-icon :nth-child(2) {
+    background: url(images/icon-home.svg) no-repeat top left;
+    background-size: 15px 15px;
+    padding: 0 0 5px 20px;
 }
-.list-icon :nth-child(3){
-  list-style-image: url('images/icon-NYT.svg');
-  list-style-position: inside;
-  font-weight: 700;
+
+.list-icon :nth-child(3) {
+    background: url(images/icon-NYT.svg) no-repeat top left;
+    background-size: 15px 15px;
+    padding: 0 0 5px 20px;
 }
-.list-icon :nth-child(4){
-  list-style-image: url('images/icon-cross.svg');
+
+.list-icon :nth-child(4) {
+    background: url(images/icon-cross.svg) no-repeat top left;
+    background-size: 15px 15px;
+    padding: 0 0 5px 20px;
 }
-.list-icon :nth-child(5){
+
+.list-icon :nth-child(5) {
     background: url(images/icon-cook.svg) no-repeat top left;
     background-size: 15px 15px;
     padding: 0 0 5px 20px;
-  }
-  
-  
+}
+
+ul li {
+    width: 250px;
+}
+
+.title-pad {
+    padding-bottom: 10px;
+}
