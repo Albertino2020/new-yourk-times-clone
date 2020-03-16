@@ -23,7 +23,8 @@ aside a {
     font-weight: 500;
     line-height: 1.375rem;
 }
-aside a:hover{
+
+aside a:hover {
     color: #666;
 }
 
@@ -227,8 +228,9 @@ a {
     font-weight: 300;
     color: #000000;
 }
-.horizental-bar{
-    display:block;
+
+.horizental-bar {
+    display: block;
     width: 60px;
     float: left;
 }
@@ -278,6 +280,7 @@ a {
     grid-template-rows: 1fr;
     width: 100%;
 }
+
 .footer-logo a {
     float: right
 }
@@ -332,19 +335,46 @@ ul li {
 .title-pad {
     padding-bottom: 10px;
 }
-.last-links{
-    
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+
+.last-links {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     padding: 10px 0;
     text-align: center;
 }
-.last-links a{
+
+.last-links a {
     font-size: 0.65rem;
     text-decoration: none;
     margin: 0 7px;
-    color: #666;    
+    color: #666;
 }
-.last-links a:hover{
+
+.last-links a:hover {
     text-decoration: underline;
     text-decoration-color: #666;
+}
+
+.auth-float {
+    clear: left;
+}
+
+.btn {
+    display: block;
+    float: left;
+    background-color: blue;
+    color: whitesmoke;
+    width: 350px;
+    height: 40px;
+    padding: 20px auto;
+    border-radius: 5px;
+}
+
+.nav-block {
+    display: block;
+    float: right;
+}
+
+.btn:after,
+.nav-block:after {
+    clear: both;
 }
