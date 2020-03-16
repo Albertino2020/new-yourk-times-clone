@@ -194,7 +194,7 @@ a {
 
 .sec-grid {
     display: grid;
-    background-image: url('/images/inflation-945.png');
+    background-image: url('images/inflation-945.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -267,8 +267,17 @@ aside {
     column-gap: 10px;
 }
 
-footer {
+.footer {
+    clear: both;
     display: block;
-    position: absolute;
     width: 100%;
+    margin-bottom: 0;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+}
+.footer-logo a{
+    float: right
 }
