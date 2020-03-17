@@ -80,10 +80,6 @@ a {
     justify-content: center;
 }
 
-.btn-anchor {
-    
-}
-
 .nav-right {
     width: 33%;
     display: flex;
@@ -319,7 +315,8 @@ a {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-decoration: none;
 }
-.ul-class li>a:hover{
+
+.ul-class li>a:hover {
     text-decoration: underline;
 }
 
@@ -385,7 +382,8 @@ ul li {
     color: whitesmoke;
     width: 350px;
     height: 40px;
-    padding: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
 }
 
@@ -473,6 +471,7 @@ ul li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 12px;
 }
-.horizenal-line{
+
+.horizenal-line {
     border: 1px solid black;
 }
