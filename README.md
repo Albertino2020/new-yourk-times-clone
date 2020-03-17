@@ -17,40 +17,18 @@ None.
 [Live Demo Link](https://rawcdn.githack.com/Albertino2020/NYT-clone/c0000b855d3a6cf734566e75f479dc7b25254931/index.html)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@albertino2020](https://github.com/settings/profile)
+- Twitter: [@albertino2050](https://twitter.com/albertino2050)
+- Linkedin: [Albertino Francisco](https://linkedin.com/in/boamorte)
 
-👤 **Author2**
+👤 Prajwal Thapa
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Github: [@praz99](https://github.com/praz99)
+- Twitter: [@t](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
@@ -65,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
 
 ## 📝 License
 
