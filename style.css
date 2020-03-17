@@ -44,7 +44,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-left {
@@ -173,8 +173,9 @@ a {
 
 .icons>a {
     margin-left: 20px;
-    border-radius: 30%;
-    background-color: silver;
+    /* border-radius: 50%; */
+    /* background-color: silver;
+    background-size: 20px 20px; */
 }
 
 .paragraph {
@@ -182,6 +183,9 @@ a {
     font-size: 1.125rem;
     line-height: 1.5625rem;
     color: #333;
+}
+.aside-editors-picks{
+    float: right;
 }
 
 .box1 {
@@ -279,6 +283,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     width: 100%;
+    padding: 0;
 }
 
 .footer-logo a {
@@ -361,7 +366,7 @@ ul li {
 .btn {
     display: block;
     float: left;
-    background-color: blue;
+    background-color: #567b95;
     color: whitesmoke;
     width: 350px;
     height: 40px;
@@ -376,5 +381,62 @@ ul li {
 
 .btn:after,
 .nav-block:after {
-    clear: both;
+clear: both;
+}
+.aside-editors-picks{
+  width: 25%;
+  position: relative;
+  bottom: 10em;
+  left: 10em;
+}
+.imagelinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.imagelinks img{
+  width: 70px;
+  height: 70px;
+}
+.imagelinks p{
+  width: 140px;
+  height: 70px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.imagelinks p>a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.imagelinks p>a:hover{
+    text-decoration: underline;
+}
+.sticky-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 1;
+    border-top: 1px solid #000;
+}
+.footer-left{
+    width: 80%;
+}
+.footer-left p{
+    text-align: center;
+}
+.footer-left p>a{
+    text-decoration: none;
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left:  10em;
+}
+.footer-right{
+    width: 20%;
 }
