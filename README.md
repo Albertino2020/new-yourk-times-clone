@@ -1,6 +1,6 @@
 # New YOrk Times Web Page Clone
 
-> This is the third project from the Microverse Main Curriculum. Wee carried out a cloning of the New York Time Page, using HTML and CSS code, trying as much as possible to match the original page. Some minor configurations were not considered and the links basically go no-where.
+> This is the third project from the Microverse Main Curriculum. We carried out cloning of the New York Times Page, using HTML and CSS code, trying as much as possible to match the original page. Some minor configurations were not considered and the links basically go no-where.
 
 ![screenshot](./images/NYT-clone.png)
 
