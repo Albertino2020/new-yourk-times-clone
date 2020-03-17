@@ -1,20 +1,20 @@
-# Project Name
+# New YOrk Times Web Page Clone
 
-> One paragraph statement about the project.
+> This is the third project from the Microverse Main Curriculum. Wee carried out a cloning of the New York Time Page, using HTML and CSS code, trying as much as possible to match the original page. Some minor configurations were not considered and the links basically go no-where.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/NYT-clone.png)
 
-Additional description about the project and its features.
+None.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
+- VSL, GIT, GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/NYT-clone/c0000b855d3a6cf734566e75f479dc7b25254931/index.html)
 
 
 ## Getting Started
