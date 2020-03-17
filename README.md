@@ -1,56 +1,34 @@
-# Project Name
+# New YOrk Times Web Page Clone
 
-> One paragraph statement about the project.
+> This is the third project from the Microverse Main Curriculum. We carried out cloning of the New York Times Page, using HTML and CSS code, trying as much as possible to match the original page. Some minor configurations were not considered and the links basically go no-where.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/NYT-clone.png)
 
-Additional description about the project and its features.
+None.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
+- VSL, GIT, GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://rawcdn.githack.com/Albertino2020/NYT-clone/c0000b855d3a6cf734566e75f479dc7b25254931/index.html)
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@albertino2020](https://github.com/settings/profile)
+- Twitter: [@albertino2050](https://twitter.com/albertino2050)
+- Linkedin: [Albertino Francisco](https://linkedin.com/in/boamorte)
 
-👤 **Author2**
+👤 Prajwal Thapa
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Github: [@praz99](https://github.com/praz99)
+- Twitter: [@t](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
@@ -65,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
 
 ## 📝 License
 
