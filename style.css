@@ -81,12 +81,7 @@ a {
 }
 
 .btn-anchor {
-    font-family: "nyt-franklin", helvetica, arial, sans-serif;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 700;
+    
 }
 
 .nav-right {
@@ -100,6 +95,13 @@ a {
     border: 1px solid #326891;
     border-radius: 3px;
     height: 2.4em;
+    font-family: "nyt-franklin", helvetica, arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-right:hover {
@@ -184,9 +186,6 @@ a {
 
 .icons>a {
     margin-left: 20px;
-    /* border-radius: 50%; */
-    /* background-color: silver;
-    background-size: 20px 20px; */
 }
 
 .paragraph {
@@ -320,6 +319,9 @@ a {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-decoration: none;
 }
+.ul-class li>a:hover{
+    text-decoration: underline;
+}
 
 .list-icon :nth-child(2) {
     background: url(images/icon-home.svg) no-repeat top left;
@@ -357,6 +359,7 @@ ul li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     padding: 10px 0;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .last-links a {
@@ -469,4 +472,7 @@ ul li {
     color: #333;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 12px;
+}
+.horizenal-line{
+    border: 1px solid black;
 }
